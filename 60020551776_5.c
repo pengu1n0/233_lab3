@@ -17,5 +17,9 @@ int main()
         else
             i++;
     }
-    
+    if(b==3)
+        printf("%d is a Lucky Number" ,n);
+    else
+        printf("%d is not a Lucky Number" ,n);
+    return 0;
 }
