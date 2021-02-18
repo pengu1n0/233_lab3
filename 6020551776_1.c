@@ -7,16 +7,16 @@ int main()
 	    sum=0;  
 		for(j=0;j<4;j++)
 		{
-		    scanf("%d",&n);
+		    scanf("%d" ,&n);
 		    sum+=n;
 		}
-	  if(sum>max)
+	    if(sum>max)
 	    {
-		max=sum;
-		ans=i;
+		  max=sum;
+		  ans=i;
 	    }
 	}
-	printf("%d %d\n",ans,sum);
+	printf("%d %d\n" ,ans,sum);
 	
 	return 0;	
 }
