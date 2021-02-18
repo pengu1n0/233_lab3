@@ -2,21 +2,21 @@
 int main()
 {
 	int sum,i,j,n,max=0,ans=0;
-	int a[5][4];
-	for(i=0;i<5;i++)
+	for(i=1;i<=5;i++)
 	{
-		sum = 0;
+	    sum=0;  
 		for(j=0;j<4;j++)
 		{
-		    scanf("%d",&a[i][j]);
+		    scanf("%d",&n);
 		    sum+=n;
 		}
-	}
-	if(sum>max)
-	{
+	  if(sum>max)
+	    {
 		max=sum;
-		
+		ans=i;
+	    }
 	}
+	printf("%d %d\n",ans,sum);
 	
-	
+	return 0;	
 }
