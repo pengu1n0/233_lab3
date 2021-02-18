@@ -12,7 +12,7 @@ int main()
 	{
 		if(a[i]==a[i+1])
 		{
-			b[i]+=a[i+1];
+			b[i]+=b[i+1];
 		}
 		if(b[i]>max)
 		{
